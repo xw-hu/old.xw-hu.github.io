@@ -5,8 +5,8 @@ table#tlayout {
     border-collapse: separate;
     background: white;
 }
-/*
-body {
+
+/*body {
 	background: white;
 	padding-bottom: 8px;
 	margin: 0;
@@ -17,7 +17,9 @@ html {
 }
 
 body { 
-  font-family: Georgia, serif;
+  font-family: Georgia, Helvetica, Arial, Verdana, san-serif, Times;
+  /*font-size: 16px;
+  line-height: 24px;*/
   color: #000;
   background-color: #ffffff; 
   text-align:left; /* for IE */
@@ -31,20 +33,6 @@ body {
   padding-bottom: 30px;
   max-width: 960px;
 }
-
-#layout-menu {
-	background: #f6f6f6;
-	border: 1px solid #dddddd;
-	padding-top: 0.5em;
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 1.0em;
-	width: auto;
-	white-space: nowrap;
-    text-align: left;
-    vertical-align: top;
-}
-
 
 #layout-menu {
 	background: #f6f6f6;
@@ -92,9 +80,8 @@ body {
     vertical-align: top;
 }
 
-#layout-menu a {
-	line-height: 1.5em;
-	margin-left: 0.5em;
+.img-circle {
+    border-radius: 50%;
 }
 
 tt {
