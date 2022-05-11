@@ -45,6 +45,16 @@ body {
     vertical-align: top;
 }
 
+
+#layout-menu a {
+    list-style-type: none;
+    float: left;
+    width: 13%;    
+    text-align: center;
+    line-height: 1.5em;
+	margin-left: 0.5em;
+}
+
 #layout-menu td {
 	background: #f4f4f4;
     vertical-align: top;
